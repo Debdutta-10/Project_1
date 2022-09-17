@@ -1,0 +1,156 @@
+body {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('kebabs2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left {
+    font-family: 'Rubik', sans-serif;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.left img {
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Rubik', sans-serif;
+}
+.left div{
+    margin: 10px;
+}
+
+.mid {
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+    border: 2px solid white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.btn {
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 13px 13px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+.container{
+    width: 694px;
+    border: 2px solid white;
+    padding: 30px 30px;
+    margin:90px 374px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.container:hover{
+    text-decoration: underline;
+    color: lightgreen;
+}
+.app{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 160px;
+}
+.app img{
+    width: 200px;
+}
+.app div{
+    text-align: center;
+    margin: 10px;
+}
+.app div a{
+    color:white;
+    text-decoration: none;
+}
+.app div a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.tandoori{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 350px;
+}
+.tandoori img{
+    width: 200px;
+}
+.tandoori div{
+    text-align: center;
+    margin: 10px;
+}
+.tandoori div a{
+    color:white;
+    text-decoration: none;
+}
+.tandoori div a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.desserts{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 560px;
+}
+.desserts img{
+    width: 200px;
+}
+.desserts div{
+    text-align: center;
+    margin: 10px;
+}
+.desserts div a{
+    color:white;
+    text-decoration: none;
+}
+.desserts div a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
